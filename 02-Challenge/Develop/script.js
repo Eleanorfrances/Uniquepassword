@@ -10,15 +10,13 @@ function writePassword() {
 
   // Adding the charaters the server can draaw from
   var specialChar = "!#$%&'()*+,-_./:;<=?@}{^"
-  var upperCase = "QWERTYUIOPASDFGHJKLZXCVBNM"
-
-
-   
+  var upperCase = "QWERTYUIOPASDFGHJKLZXCVBNM"  
 
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword("#password") {
+
 // Choosing password length
 var passwordLength = parseInt(prompt("How long would you like your password?"));
-   
+});
